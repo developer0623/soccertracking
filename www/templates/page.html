@@ -1,0 +1,20 @@
+<ion-view title="Page" hide-nav-bar="true" id="page1" class=" ">
+    <ion-content padding="true" class="manual-ios-statusbar-padding">
+        <form id="page-form1" class="list ">
+            <label class="item item-input" >
+                <i class="icon ion-search placeholder-icon"></i>
+                <input type="search" id="input_query" placeholder="Chassis,BL,Consignee" ng-model="searchinput" ng-change="onSearchChange()" ng-enter="onSearchDo()" focus-me  style="font-size: larger;color: #1898d5;text-transform: uppercase !important;font-family: monospace;padding: 0px;">
+            </label>
+            <a  id="search_btn" class=" button button-positive  button-block icon ion-search " ng-click="onSearchDo()"></a>
+        </form>
+        <div class="spacer" style="width: 300px; height: 25px;"></div>
+        <div class="logo">
+            <img id="logo_image" src="img/5CCUUZcBQtKUdSJTjBJ0_socar_logo.png" width="100%" height="auto" style="display: block; margin-left: auto; margin-right: auto;">
+        </div>
+        
+    </ion-content>
+    <ion-footer-bar style="background-color:#fff; color:#000; height:80px">
+        <a  id="contact_btn" class=" button button-outline button-positive  button-block icon ion-ios-telephone " ng-click="onContactDo()" style="width: 100%;
+    font-size: 18px;padding: 8px;"></a>
+    </ion-footer-bar>
+</ion-view>

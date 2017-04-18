@@ -1,0 +1,18 @@
+<ion-view title="Registration" id="registration3" class=" " hide-nav-bar="true" hide-back-button="true" style="background-color:#387EF5; color:#fff;">
+    <ion-content padding="true">
+        <div class="row row-center">
+            <div class="col">
+                <div class="text-center">
+                    <img src="img/smartphone-icon-sms.png" width="50%"><br><br>
+                    <label class="item item-input reginput" style="rgba(255, 255, 255, 0)">
+                        <input id="sms_code" type="tel" placeholder="" class="reginput" style="text-align: center;padding: 0 0 0 0 !important;height:60px" maxlength="4" ng-model="smsinput" ng-change="onsmscodeChange()">
+                    </label>
+                    <h2 style="text-align: center;color:#fff"  class="regtext" id="labelReg3"></h2><h2><br><span style="text-align: center;color:#fff"  class="regtext" id="mobile_phone"></span></h2>
+                 </div>
+            </div>
+        </div>        
+    </ion-content>
+    <ion-footer-bar style="background-color:#387EF5; color:#fff; height:80px">
+        <button ui-sref="registration4" style="border-radius:10px 10px 10px 10px;" class="button button-light button-large button-block button-outline icon-right ion-chevron-right" id="labelnext4"></button>
+    </ion-footer-bar>
+</ion-view>

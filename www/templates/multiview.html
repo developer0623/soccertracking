@@ -1,0 +1,54 @@
+<ion-view title="RESULTS" id="multiviewtitle">
+    
+   <ion-content scroll="true" style="width: 40%;float:left;">
+        <div id="resultsview">
+            <div id="results-list" >
+            </div>
+        </div>
+   </ion-content>
+   <ion-content scroll="false" style="width: 60%;float:left;left: 40%; top:44px;background-color: #f8f8f8;" id="detailslogo">
+       <div class="logo">
+            
+        </div>
+   </ion-content>
+   <ion-content scroll="false" style="width: 60%;float:left;left: 40%;top:50px;display:none;background-color: #f8f8f8;" id="detailsdata">
+       <div id="detailsview" >
+            <ion-list id="details-list5" class=" ">
+                <ion-item class="item-avatar  " id="details-list-item14" style="background-color: #f8f8f8;color: #000;">
+                    <img src="img/socar_logo.svg">
+                    <h2><span id="status"></span><br><b id="status_desc"></b></h2>
+                </ion-item>
+            </ion-list>
+            <ion-list id="details-list6" class=" ">
+                <ion-item class="item-avatar  " id="details-list-item15" style="background-color: #f8f8f8;color: #000;">
+                    <img src="img/status-DEPARTED.svg" style="top: 32px;">
+                    <h2><b id="vessel_desc"></b><br><span id="bllabel"></span> <strong id="bl"></strong><br><span id="depart"></span><span id="departure_date"></span><br><span id="arrival"></span><span id="arrival_date"></span></h2>
+                </ion-item>
+            </ion-list>
+            <ion-list id="details-list7" class=" ">
+                <ion-item class="item-avatar  " id="details-list-item16" style="background-color: #f8f8f8;color: #000;">
+                    <img id="podflag" src="img/flag_DAKAR.png" >
+                    <h2><span id="consignee"></span><br><b><span id="pod"></span></b></h2>
+                </ion-item>
+            </ion-list>
+            <ion-list id="details-list8" class=" ">
+                <ion-item class="item-avatar  " id="details-list-item17" style="background-color: #f8f8f8;color: #000;">
+                    <h2><strong id="goods_desc"></strong></h2><br>
+                    <strong id="vin"></strong>
+                </ion-item>
+            </ion-list>
+            
+            <ion-list id="details-agent" class=" ">
+                <a id="clicktocall" href="#" style="text-decoration: none">
+                <ion-item class="item-avatar  " id="details-list-item14" style="background-color: #43b51f;color: #fff;border-radius: 50px;">
+                    <img src="img/phone.png" style="top: 30px;">
+                    <h2 style="color: #fff;">AGENT <strong id="agent"></strong></h2><br>
+                    <span id="labelcall"></span><b id="agent_phone"></b>
+                    
+                </ion-item>
+                </a>
+            </ion-list>
+        </div>
+     </div>
+   </ion-content>
+</ion-view>

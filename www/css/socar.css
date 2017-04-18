@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Gudea";
+  src: url("../fonts/Gudea-Regular.ttf");
+  src: url("../fonts/Gudea-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+.master {
+  height: inherit; 
+  width: inherit; 
+  max-width: inherit;
+}
+
+.detail {
+  height: inherit; 
+  width: inherit; 
+  top: inherit; 
+  left: inherit;
+}
+
+.col-dynamic-40 {
+  max-width: 40%;
+}
+
+.row-dynamic {
+  padding: 0;
+}
+.row, .scroll {
+  height: 100%;
+}
+.regtext {
+  font-family: "Gudea";
+}
+.reginput {
+  font-family: "Gudea" !important;
+  font-size: 40px !important;
+  color: #fff !important;
+  background-color: rgba(255, 255, 255, 0) !important;
+  padding: 0 0 0 0 !important;
+  height: 55px !important;  
+}
